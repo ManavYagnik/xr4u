@@ -1,0 +1,42 @@
+import { useRef, useEffect, useState } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import backgroundImage from '/heroBg.png';
+import PrefaceImages from './ui/PrefaceImages';
+import {motion} from 'framer-motion'
+import { fadeIn } from '../utils/motion';
+
+
+
+// Ensure ScrollTrigger is added to GSAP
+gsap.registerPlugin(ScrollTrigger);
+
+const Preface2 = () => {
+  const [animationComplete, setAnimationComplete] = useState(false);
+
+  const handleAnimationComplete = () => {
+    setAnimationComplete(true);
+  };
+
+  return (
+    <motion.section style={{ backgroundImage: `url(${backgroundImage})` }} className="bg-[#161a30] preface2 max-lg:flex-col-reverse max-lg:p-5 max-lg:pt-20 flex flex-row items-center justify-between mx-auto min-h-full p-20 ">
+
+      <PrefaceImages />
+      <div className="flex flex-col max-lg:items-center max-lg:justify-center max-lg:mx-auto max-lg:gap-4" >
+      <motion.p 
+      variants={fadeIn('down', 'tween', 0.8, 0.5)}
+      initial={animationComplete ? "" : "hidden"}
+      whileInView="show"
+      onAnimationComplete={handleAnimationComplete} 
+      className='text-justify max-lg:text-center font-["NeueMontrealRegular"] tracking-wide w-[60%] my-4 text-2xl  py-3 text-[#f0f0f0] max-lg:w-full'>A lot of these devices have already become a <span className='font-semibold text-[#bffd44]'> part of our daily lives</span>, while some futuristic ones make us curious.</motion.p>
+      <img
+        className="object-contain max-lg:w-[150px] w-[200px] relative -rotate-[10deg] max-lg:-rotate-45 max-lg:left-28 right-20"
+        src='./arrow1.png'
+        alt='arrow1'
+      />
+      </div>
+    </motion.section>
+  );
+};
+
+export default Preface2;

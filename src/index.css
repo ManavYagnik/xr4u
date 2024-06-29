@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.shadow-glow {
+    box-shadow: 0 0 15px rgba(191, 253, 68, 0.8); /* Adjust the color and spread as needed */
+  }
+
+
+  .shadow-glow-1 {
+    box-shadow: 0 0 15px rgba(22, 26, 48, 0.8);
+ /* Adjust the color and spread as needed */
+  }
+  
+  .selected {
+    color: #bffd44;
+    background-color: #161a30;
+    transition: all ease-in-out 0.3s;
+  }
+
+  /* @media screen and (min-width: 1799px) and (max-width: 2300px){
+    .heading{
+      margin-right: 300px;
+    }
+  } */
+
+  /* Media query for screens larger than 1300px */
+@media screen and (min-width: 1300px) {
+  .heading {
+    font-size: 3rem;
+  }
+  
+  .paragraph {
+    font-size: 1.1rem;
+  }
+}
+
+/* Media query for screens larger than 1100px */
+@media screen and (min-width: 1100px) and (max-width: 1299px) {
+  .heading {
+    margin-left: 50px;
+  }
+  
+  .paragraph {
+    display: relative;
+    right: 100px;
+    
+  }
+
+
+}
+
+/* Media query for laptop devices */
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .heading {
+    margin-left: 10px;
+  }
+  
+  .paragraph {
+    display: relative;
+    right: 50px;
+    width: 30%;
+    
+  }
+}
+
+/*for tablets*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .heading {
+    width: 100%;
+    margin-left: 0px;
+    
+  }
+  
+  .paragraph {
+    width: 60%;
+    margin: 0;
+    padding: auto 20px;
+    
+  }
+
+  .textSection{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+
+
+@media screen and (min-width: 1800px) {
+  .ctaHeader{
+   margin-left:400px;
+  }
+
+  .ctaParagraph{
+    display: absolute;
+    right: 200px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .ctaHeader{
+   margin-left:480px;
+  }
+
+  .ctaParagraph{
+    display: absolute;
+    right: 280px;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .ctaHeader{
+   margin-left:700px;
+  }
+
+  .ctaParagraph{
+    display: absolute;
+    right: 380px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .heading{
+   margin-left:400px;
+  }
+
+  .paragraph{
+    display: absolute;
+    right: 200px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .heading{
+   margin-left:600px;
+  }
+
+  .paragraph{
+    display: absolute;
+    right: 490px;
+  }
+}
+
+.hr-style {
+  border: none;
+  height: 3px; /* Adjust thickness as needed */
+  background: linear-gradient(to right, #161a30 0%, #bffd44 50%, #161a30 100%);
+}
+
+

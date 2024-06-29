@@ -1,0 +1,141 @@
+/* styles/fonts.css */
+:root {
+  --clr-neutral-900: hsl(207, 19%, 9%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-accent-400: hsl(142, 90%, 61%);
+}
+
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #BFFD44 #161A30;
+}*/
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #161A30;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #161A30;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #161A30;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #BFFD44;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #BFFD44;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #BFFD44;
+}
+
+
+
+/* Neue Montreal Light */
+@font-face {
+    font-family: 'NeueMontrealLight';
+    src: url('../src/assets/fonts/NeueMontreal-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Neue Montreal Light Italic */
+  @font-face {
+    font-family: 'Neue Montreal Light Italic';
+    src: url('./fonts/NeueMontreal-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Neue Montreal Regular */
+  @font-face {
+    font-family: "NeueMontrealRegular";
+    src: url("../src/assets/fonts/NeueMontreal-Regular.otf") format("opentype");
+  }
+  
+  /* Neue Montreal Italic */
+  @font-face {
+    font-family: 'Neue Montreal Italic';
+    src: url('./fonts/NeueMontreal-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  /* Neue Montreal Bold */
+  @font-face {
+    font-family: 'NeueMontrealBold';
+    src: url('../src/assets/fonts/NeueMontreal-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Neue Montreal Bold Italic */
+  @font-face {
+    font-family: 'Neue Montreal Bold Italic';
+    src: url('./fonts/NeueMontreal-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Neue Montreal Medium */
+  @font-face {
+    font-family: 'NeueMontrealMedium';
+    src: url('../src/assets/fonts/NeueMontreal-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  /* Neue Montreal Medium Italic */
+  @font-face {
+    font-family: 'Neue Montreal Medium Italic';
+    src: url('./fonts/NeueMontreal-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+
+  .tooltip-title{
+    font-size: 15px;
+    padding: 3px auto;
+    font-weight: 500;    
+    text-align: center;
+    color: #f2f2f2;
+  }
+
+  .tooltip-title-container{
+    padding: 10px;
+    
+    
+  }
+
+  .tooltip-para{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 3px;
+    color: #f2f2f2;
+  }
+
+  .tooltip-image{
+    margin: 8px 0 0 0;
+    border-radius:  0 0 2px 2px;
+  }
+
+  .tooltip-container{
+    background-color: #161a30;
+    border-radius: 3px 3px 3px 2px;
+  }
+
+  
