@@ -32,7 +32,7 @@ const Preface = () => {
           initial={animationComplete ? "" : "hidden"}
           whileInView="show"
           onAnimationComplete={handleAnimationComplete} 
-          className='text-justify max-lg:text-center font-["NeueMontrealRegular"] tracking-wide w-[60%] my-4 text-xl max-lg:text-lg py-3 text-[#f0f0f0] max-lg:w-[90%]'>
+          className='text-justify max-lg:text-center  w-[60%] my-4 text-xl max-lg:text-lg py-3 text-[#f0f0f0] max-lg:w-[90%]'>
              Technology has been evolving rapidly over the years, transforming the way we live, work and interact with the world.
           </motion.p>
         </div>
