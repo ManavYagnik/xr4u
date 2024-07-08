@@ -47,8 +47,8 @@ export const TabContents = [
         images: ["./trainingForTeachers.png"]
       },
       {
-        tabTitle: "XR adoption",
-        contentTitle: "Support",
+        tabTitle: "XR adoption support",
+        contentTitle: "XR adoption support",
         content: "Effective resource management is the backbone of successful XR project implementation. Beyond just technical infrastructure needs, we specialize in human resource alignment for XR projects. From planning detailed role descriptions to strategic hiring and effective onboarding, we take care of it all.",
         btn: "Book a call now",
         images: ["./Support.png"]

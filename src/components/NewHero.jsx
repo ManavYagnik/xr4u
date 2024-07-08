@@ -40,7 +40,7 @@ const NewHero = () => {
         initial={animationComplete ? "" : "hidden"}
         whileInView="show"
         onAnimationComplete={handleAnimationComplete} 
-        className=' text-[#f0f0f0] max-lg:text-center tracking-wider max-lg:w-full  max-lg: w-[45%] leading-relaxed py-10 text-justify '>At XR4U, we pioneer the future of education with such immersive technologies, extending the potential of learning for both students and teachers. Our R&D-driven solutions enhance learning experiences, making them more extravagant and extraordinary, empowering students, educators, and institutions. We want everyone to stay connected to the XR universe and build their own reality. Join us in redefining education through XR technology.</motion.p>
+        className=' text-[#f0f0f0] max-lg:text-center  max-lg:w-full  max-lg: w-[45%] leading-relaxed py-10 text-justify '>At XR4U, we pioneer the future of education with such immersive technologies, extending the potential of learning for both students and teachers. Our R&D-driven solutions enhance learning experiences, making them more extravagant and extraordinary, empowering students, educators, and institutions. We want everyone to stay connected to the XR universe and build their own reality. Join us in redefining education through XR technology.</motion.p>
         </motion.div>
         
         
