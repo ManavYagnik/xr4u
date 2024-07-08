@@ -34,14 +34,14 @@ export const industries = [
 export const TabContents = [
     {
         tabTitle: "Workshops & demos",
-        contentTitle: "Workshop for students",
+        contentTitle: "Workshops & demos",
         content: "Relevant VR and AR demos for students that support learning objectives and cognitive outcomes attached to a subject curriculum. This offering is for schools of all levels.",
         btn: "Book a call now",
         images: ["./workshopForStudents.png"]
       },
       {
         tabTitle: "Training programmes",
-        contentTitle: "Training for teachers",
+        contentTitle: "Training programmes",
         content: "The training aims to up-skill teachers, and help them integrate XR in their teaching workflows. It will cover how teachers can leverage smart phones and computers for creating XR learning experiences.",
         btn: "Book a call now",
         images: ["./trainingForTeachers.png"]

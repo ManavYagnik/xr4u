@@ -24,8 +24,8 @@ const Preface = () => {
           whileInView="show"
           onAnimationComplete={handleAnimationComplete} 
           className='font-["NeueMontrealBold"] max-lg:text-4xl max-md:text-center w-full text-5xl text-[#f0f0f0]'>
-            Technology has been evolving rapidly over the years, transforming the way we live, work and interact with the world.
-
+           
+            From computers to smartphones and now to extended reality devices
           </motion.h1>
           <motion.p 
           variants={fadeIn('down', 'tween', 0.8, 0.5)}
@@ -33,7 +33,7 @@ const Preface = () => {
           whileInView="show"
           onAnimationComplete={handleAnimationComplete} 
           className='text-justify max-lg:text-center font-["NeueMontrealRegular"] tracking-wide w-[60%] my-4 text-xl max-lg:text-lg py-3 text-[#f0f0f0] max-lg:w-[90%]'>
-            From computers to smartphones and now to extended reality devices
+             Technology has been evolving rapidly over the years, transforming the way we live, work and interact with the world.
           </motion.p>
         </div>
         {/* <TransformationGSAP /> */}
