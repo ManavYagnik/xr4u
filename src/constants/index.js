@@ -33,21 +33,21 @@ export const industries = [
 
 export const TabContents = [
     {
-        tabTitle: "Workshop for students",
+        tabTitle: "Workshops & demos",
         contentTitle: "Workshop for students",
         content: "Relevant VR and AR demos for students that support learning objectives and cognitive outcomes attached to a subject curriculum. This offering is for schools of all levels.",
         btn: "Book a call now",
         images: ["./workshopForStudents.png"]
       },
       {
-        tabTitle: "Training for teachers",
+        tabTitle: "Training programmes",
         contentTitle: "Training for teachers",
         content: "The training aims to up-skill teachers, and help them integrate XR in their teaching workflows. It will cover how teachers can leverage smart phones and computers for creating XR learning experiences.",
         btn: "Book a call now",
         images: ["./trainingForTeachers.png"]
       },
       {
-        tabTitle: "Support",
+        tabTitle: "XR adoption",
         contentTitle: "Support",
         content: "Effective resource management is the backbone of successful XR project implementation. Beyond just technical infrastructure needs, we specialize in human resource alignment for XR projects. From planning detailed role descriptions to strategic hiring and effective onboarding, we take care of it all.",
         btn: "Book a call now",

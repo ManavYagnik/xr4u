@@ -23,8 +23,9 @@ const Preface = () => {
           initial={animationComplete ? "" : "hidden"}
           whileInView="show"
           onAnimationComplete={handleAnimationComplete} 
-          className='font-["NeueMontrealBold"] max-lg:text-4xl max-md:text-center w-full text-6xl text-[#f0f0f0]'>
-            Technology has been evolving over the years,
+          className='font-["NeueMontrealBold"] max-lg:text-4xl max-md:text-center w-full text-5xl text-[#f0f0f0]'>
+            Technology has been evolving rapidly over the years, transforming the way we live, work and interact with the world.
+
           </motion.h1>
           <motion.p 
           variants={fadeIn('down', 'tween', 0.8, 0.5)}

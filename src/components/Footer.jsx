@@ -94,7 +94,7 @@ const Footer = () => {
     initial={animationComplete ? "" : "hidden"}
     whileInView="show"
     onAnimationComplete={handleAnimationComplete}
-    className='flex flex-row items-center justify-center gap-5'>
+    className='flex flex-row items-center justify-center gap-5 m-1'>
         <a className='cursor-pointer' href='/'><img className='hover:-translate-y-1 hover:translate-x-1 transition-all ease duration-300 invert' src="./fb.png" width={30} /></a>
         <a className='cursor-pointer' href='/'><img className='hover:-translate-y-1 hover:translate-x-1 transition-all ease duration-300 invert' src="./insta.png" width={30} /></a>
         <a className='cursor-pointer' href='/'><img className='hover:-translate-y-1 hover:translate-x-1 transition-all ease duration-300 invert' src="./linkedin.png" width={30} /></a>
