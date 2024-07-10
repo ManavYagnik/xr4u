@@ -23,9 +23,9 @@ const Preface = () => {
   };
 
   return (
-    <div ref={ref}>
+    <div >
 
-  {inView && (  <motion.section style={{ backgroundImage: `url(${backgroundImage})` }} className=' w-full  min-h-full preface-section bg-[#161a30] max-lg:px-4 py-12 px-40'>
+  <motion.section style={{ backgroundImage: `url(${backgroundImage})` }} className=' w-full  min-h-full preface-section bg-[#161a30] max-lg:px-4 py-12 px-40'>
 
       <div className='max-lg:text-center max-lg:gap-2 max-lg:flex-col flex flex-row items-center justify-between min-h-full'>
         <div className='max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:mx-auto w-full'>
@@ -57,7 +57,7 @@ const Preface = () => {
         className='w-[30%] max-lg:w-full ' src={images[imageIndex]}/>
       </div>
     </motion.section>
-  )}
+  
     </div>
   );
 }
