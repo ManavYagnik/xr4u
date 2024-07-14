@@ -57,7 +57,7 @@ const About = () => {
       
       className='heading text-[#f0f0f0] max-sm:text-3xl max-sm:-mt-[150px] max-sm:w-full tracking-wide font-["NeueMontrealBold"] max-md:text-4xl max-md:ml-[40px] max-md:-mt-[180px] max-lg:-mt-[215px]  -mt-[185px] ml-[100px] text-5xl  w-1/2'>Pioneering <span className='text-[#bffd44]'>XR <br /> Consultation</span></h1>
         <div className='paragraph w-[25%] max-sm:mt-[100px]  absolute space-y-5 right-60 max-md:w-[52%] max-md:mt-[150px] max-lg:left-20 max-lg:mt-[60px] -mt-[180px]'>
-        <p className=' text-[#f0f0f0] tracking-wider max-sm:text-[16px] text-justify font-["NeueMontrealLight"] text-lg'>At XR4U, we are a team of experts dedicated to revolutionizing various industries by enhancing task efficiencies through our custom XR consultations. Discover the untapped potential of your business with our strategic insights.</p>
+        <p className=' text-[#f0f0f0] tracking-wider max-sm:text-[16px] text-justify font-["NeueMontrealLight"] text-lg'>At XR4U, we pioneer the future of education with immersive technologies, enhancing learning for students and teachers. Our R&D-driven solutions make learning extraordinary. We empower users to connect with the XR universe and create their own reality. Join us in redefining education through XR technology.</p>
         <a href='https://topmate.io/sahir_sharma'><button className='rounded-full font-["NeueMontrealRegular"] border-[3px] hover:translate-y-2 transition ease-in-out duration-500 border-[#88bc20] text-sm font-bold px-6 py-[10px]  mt-6 bg-[#bffd44] text-[#161a30] text-center shadow-glow'><p className='-top-[1px] relative'>Book a call now</p></button></a>
       </div>
     </div>

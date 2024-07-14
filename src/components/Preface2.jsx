@@ -31,8 +31,7 @@ const Preface2 = () => {
       initial={animationComplete ? "" : "hidden"}
       whileInView="show"
       onAnimationComplete={handleAnimationComplete} 
-      className='text-justify max-lg:text-center font-["NeueMontrealRegular"] tracking-wide w-[60%] my-4 text-xl  py-3 text-[#f0f0f0] max-lg:w-full'>Many of these devices, like smartphones and smart home assistants, are  <span className='font-semibold text-[#bffd44]'> part of our daily lives</span>    Futuristic technologies like AR glasses and VR headsets capture our curiosity, promising to change how we experience the world by blending digital and physical realities, transforming various industries and daily activities.
-</motion.p>
+      className='text-justify max-lg:text-center font-["NeueMontrealRegular"] tracking-wide w-[60%] my-4 text-xl  py-3 text-[#f0f0f0] max-lg:w-full'>Many of these devices, like smartphones and smart home assistants, are  <span className='font-semibold text-[#bffd44]'> part of our daily lives</span>    Futuristic technologies like AR glasses and VR headsets promise to blend digital and physical realities, transforming industries and activities.</motion.p>
       <img
         className="object-contain max-lg:w-[150px] w-[200px] relative -rotate-[10deg] max-lg:-rotate-45 max-lg:left-28 right-20"
         src='./arrow1.png'
