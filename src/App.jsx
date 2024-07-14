@@ -15,8 +15,8 @@ return(
     <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blogs" element={<BlogPage />} />
-        <Route path="/vrworkshops" element={<Blog1 />} />
-        <Route path="/transformingeducation" element={<Blog2 />} />
+        <Route path="/" element={<Blog1 />} />
+        <Route path="/" element={<Blog2 />} />
     </Routes>
 <Footer /> 
 </div>

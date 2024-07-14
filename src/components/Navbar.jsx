@@ -45,7 +45,7 @@ const Navbar = () => {
       <a className='cursor-pointer flex hover:translate-y-1 transition-all ease duration-300' href="/"><img className='max-md:w-[100px] relative bottom-1' src='./xr4u.png' width={120} /></a>
       <ul className='flex  max-lg:hidden font-["NeueMontrealLight"]  flex-row items-center text-[18px] justify-between gap-7'>
             <a href='/'><li className='hover:bg-[#BFFD44] tracking-wider hover:translate-y-1 px-2 py-1 rounded-full hover:text-[#03001C]   transition-all ease duration-500 font-bold' >About</li></a>
-            <a href='#services'><li className='hover:bg-[#BFFD44] tracking-wider hover:translate-y-1 px-2 py-1 rounded-full hover:text-[#03001C]   transition-all ease duration-500 font-bold'>Home</li></a>
+            <a href='/'><li className='hover:bg-[#BFFD44] tracking-wider hover:translate-y-1 px-2 py-1 rounded-full hover:text-[#03001C]   transition-all ease duration-500 font-bold'>Home</li></a>
             <a href='/blogs'><li className='hover:bg-[#BFFD44] tracking-wider hover:translate-y-1 px-2 py-1 rounded-full hover:text-[#03001C]   transition-all ease duration-500 font-bold'>Blogs</li></a>
             
         </ul>
@@ -70,7 +70,7 @@ const Navbar = () => {
         <div className=' w-full backdrop-blur-md border-t-2 bg-[#050505]/40 menu rounded-3xl  fixed top-16 left-0 right-0 z-[9998] max-md:w-full  mx-auto'>
           {/* Dropdown menu content goes here */}
           <ul className='flex flex-col w-full items-start rounded-3xl'>
-          <a className='w-full' href='#'><li className='hover:bg-slate-200 px-5 py-[10px] bg-[#050505]/60 text-xl w-full hover:text-[#03001C]   transition-all ease duration-300 font-bold'>About</li></a>
+          <a className='w-full' href='/'><li className='hover:bg-slate-200 px-5 py-[10px] bg-[#050505]/60 text-xl w-full hover:text-[#03001C]   transition-all ease duration-300 font-bold'>About</li></a>
           <a className='w-full' href='/'><li className='hover:bg-slate-200 w-full px-5 py-[10px] bg-[#050505]/60 text-xl  hover:text-[#03001C]  rounded-t-3xl transition-all ease duration-300 font-bold'>Home</li></a>
 
             {/* <a className="w-full" href='#'><li className='hover:bg-slate-200 px-5 py-[10px] bg-[#050505]/60 text-xl w-full hover:text-[#03001C]   transition-all ease duration-300'>Services</li></a> */}
