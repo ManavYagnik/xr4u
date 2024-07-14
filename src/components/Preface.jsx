@@ -3,7 +3,9 @@ import TransformationGSAP from './ui/TransformationGSAP';
 import backgroundImage from '/heroBg.png';
 import {motion} from 'framer-motion'
 import { fadeIn } from '../utils/motion';
-
+// import {CsAnim} from '../components/CsAnim'
+import { Component } from 'lucide-react';
+import CsAnim from './CsAnim';
 
 const Preface = () => {
 
@@ -36,14 +38,9 @@ const Preface = () => {
              Technology has been evolving rapidly over the years, transforming the way we live, work and interact with the world.
           </motion.p>
         </div>
-        {/* <TransformationGSAP /> */}
-        <motion.img 
-        variants={fadeIn('', 'tween', 0.8, 0.5)}
-        initial={animationComplete ? "" : "hidden"}
-        whileInView="show"
-        onAnimationComplete={handleAnimationComplete} 
-
-        className='w-[30%] max-lg:w-full ' src='./prefaceOne.png'/>
+        <div>
+          <CsAnim /> 
+        </div>
       </div>
     </motion.section>
   );

@@ -139,3 +139,36 @@
   }
 
   
+  /* csanim */
+
+/* 
+  .container-csimg {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+  }
+  
+  .container-csimg > img {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #csimg-1 {
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #csimg-2 {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #csimg-3 {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+  }
+   */

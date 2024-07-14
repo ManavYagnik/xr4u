@@ -5,8 +5,9 @@ import backgroundImage from '/heroBg.png';
 import PrefaceImages from './ui/PrefaceImages';
 import {motion} from 'framer-motion'
 import { fadeIn } from '../utils/motion';
-
-
+// import { PrefaceAnim} from './ui/PrefaceAnim';
+ 
+import CsAnim2 from './CsAnim2';
 
 // Ensure ScrollTrigger is added to GSAP
 gsap.registerPlugin(ScrollTrigger);
@@ -20,8 +21,10 @@ const Preface2 = () => {
 
   return (
     <motion.section style={{ backgroundImage: `url(${backgroundImage})` }} className="bg-[#161a30] preface2 max-lg:flex-col-reverse max-lg:p-5 max-lg:pt-20 flex flex-row items-center justify-around mx-auto min-h-full p-20">
-
-      <PrefaceImages />
+      <div>
+          <CsAnim2 /> 
+        </div>
+      {/* <PrefaceImages /> */}
       <div className="flex flex-col items-center justify-center mx-auto gap-4  max-lg:items-center max-lg:justify-center max-lg:mx-auto max-lg:gap-4" >
       <motion.p 
       variants={fadeIn('down', 'tween', 0.8, 0.5)}
@@ -35,7 +38,10 @@ const Preface2 = () => {
         src='./arrow1.png'
         alt='arrow1'
       />
+
+
       </div>
+      
     </motion.section>
   );
 };

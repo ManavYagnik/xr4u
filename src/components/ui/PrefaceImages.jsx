@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// import {PrefaceAnim} from './PrefaceAnim';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -31,6 +32,7 @@ const PrefaceImages = () => {
   return (
     <div ref={containerRef} className="relative w-full h-[500px] flex items-center justify-center mx-auto">
       <img ref={image2Ref} className=' w-[570px] z-[15]' src="./preface2.png" alt="Image 2" />
+      
     </div>
   );
 }
