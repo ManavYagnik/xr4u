@@ -548,7 +548,7 @@ export const BlogCardData = [
         tag1: "XR",
         tag2: "Education",
         tag3: "Tech",
-        link: "/vr workshops",
+        link: "#",
         images: "./shanu.png",
         blogCardImage: "./blogCard1.png"
 
@@ -561,7 +561,7 @@ export const BlogCardData = [
         tag1: "XR",
         tag2: "Education",
         tag3: "Accessibility",
-        link: "/transforming education",
+        link: "#",
         images: "./shanu.png",
         blogCardImage: "./blogCard2.png"
 
