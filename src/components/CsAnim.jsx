@@ -39,7 +39,7 @@ const CsAnim = () => {
         textAlign: 'center',
         // backgroundColor: 'red',
       }}
-    >
+       >
       <div
         ref={pchildRef}
         onScroll={csAnimate1}

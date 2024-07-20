@@ -18,14 +18,14 @@ const TabContent = () => {
           <Tabs className="max-md:flex-col max-md:items-center max-md:justify-center max-md:mx-auto flex flex-row items-center justify-center w-[1400px]" selectedIndex={activeTab} onSelect={(index) => handleTabClick(index)}>
             <TabList className="flex-col max-lg:grid max-lg:grid-cols-3 flex max-lg:w-fit w-full max-md:m-2 max-lg:mr-10 mr-20 max-md:mb-4 border-[2px] border-t-[3px] max-md:border-[1px] border-[#161a30] rounded-md">
               {TabContents.map((tab, index) => (
-                <Tab key={index} selectedClassName='selected' className="hover:cursor-pointer text-[#161a30] max-lg:text-center ring-0 outline-none underline-none rounded-none  max-md:border-[1px] border-b-[1px] border-x-0 border-t-0 border-[#161a30] max-md:p-3 max-md: px-10 py-6">
+                <Tab key={index} selectedClassName='selected' className="hover:cursor-pointer text-[#161a30] max-lg:text-center ring-0 outline-none underline-none rounded-none  max-md:border-[1px] border-b-[1px] border-x-0 border-t-0 border-[#161a30] max-md:p-3 max-md: px-10 py-6 font-bold">
                   {tab.tabTitle}
                 </Tab>
               ))}
             </TabList>
             {TabContents.map((tab, index) => (
               <TabPanel key={index} className="h-full max-md:w-full max-md:flex max-md:items-center max-md:justify-center max-md:mx-auto max-md:flex-col max-md:left-0 w-fit relative left-10">
-                <h2 className='font-bold max-lg: max-md:text-center text-[#161a30] max-md:my-2 my-5'>{tab.contentTitle}</h2>
+                <h2 className='font-bold max-lg: max-md:text-center text-[#161a30] max-md:my-2 my-5 font-bold'>{tab.contentTitle}</h2>
                 <p className='font-bold text-justify  max-lg:text-center tracking-wide max-lg: text-[#161a30] max-lg:w-full w-[85%]'>{tab.content}</p>
                 <a href='https://topmate.io/sahir_sharma'>
                   <button className='rounded-full hover:translate-y-2 transition ease-in-out duration-500 text-sm font-["NeueMontrealRegular"] tracking-wide px-8 py-[8px] mt-4 bg-[#161a30] text-[#bffd44] text-center shadow-glow-1'>
