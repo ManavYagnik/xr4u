@@ -26,7 +26,7 @@ const TabContent = () => {
             {TabContents.map((tab, index) => (
               <TabPanel key={index} className="h-full max-md:w-full max-md:flex max-md:items-center max-md:justify-center max-md:mx-auto max-md:flex-col max-md:left-0 w-fit relative left-10">
                 <h2 className='font-bold max-lg: max-md:text-center text-[#161a30] max-md:my-2 my-5 font-bold'>{tab.contentTitle}</h2>
-                <p className='font-bold text-justify  max-lg:text-center tracking-wide max-lg: text-[#161a30] max-lg:w-full w-[85%]'>{tab.content}</p>
+                <p className='text-justify  max-lg:text-center tracking-wide max-lg: text-[#161a30] max-lg:w-full w-[85%]'>{tab.content}</p>
                 <a href='https://topmate.io/sahir_sharma'>
                   <button className='rounded-full hover:translate-y-2 transition ease-in-out duration-500 text-sm font-["NeueMontrealRegular"] tracking-wide px-8 py-[8px] mt-4 bg-[#161a30] text-[#bffd44] text-center shadow-glow-1'>
                     <p className='-top-[1px] max-lg: relative'>Find a fit for your institution</p>
